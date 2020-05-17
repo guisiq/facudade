@@ -1,0 +1,15 @@
+01 - Escreva um programa que solicite do usuário um valor inteiro não negativo e apresente na tela o somatório desse valor. Exemplo:
+
+Valor = 5
+
+Somatório = 5+4+3+2+1 = 15
+
+02 - Escreva um programa que permita ao usuário digitar um valor inteiro não negativo. O programa deve calcular e apresentar o fatorial do número digitado.
+
+03 - Usando laços de repetição, escreva um programa que solicite do usuário um valor para a base e um valor para o expoente. O programa deve calcular e apresentar a potência resultante. 
+
+04 - Escreva um programa que permita ao usuário digitar valores numéricos enquanto quiser e ao encerrar deve apresentar a quantidade de valores digitados, o maior valor, o menor valor e a média dos valores informados. 
+
+05 -  Escreva um algoritmo para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem decrescente. 
+
+06 - Escreva um programa que solicite do usuário as duas notas de um aluno para calcular a sua média. O programa deve realizar o tratamento da digitação das notas para aceitar somente valores entre 0 1 10 (inluindo os limites). Caso a nota seja informada fora desse intervalo deve solicitar a digitação novamente. 

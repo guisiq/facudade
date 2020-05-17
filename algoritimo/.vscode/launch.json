@@ -1,0 +1,91 @@
+{
+    // Use o IntelliSense para aprender sobre possíveis atributos.
+    // Passe o mouse para ver as descrições dos atributos existentes.
+    // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicio06Aula2",
+            "request": "launch",
+            "mainClass": "exercicio06Aula2",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicio05Aula2",
+            "request": "launch",
+            "mainClass": "exercicio05Aula2",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicio04Aula2",
+            "request": "launch",
+            "mainClass": "exercicio04Aula2",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicio03Aula2",
+            "request": "launch",
+            "mainClass": "exercicio03Aula2",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicio02Aula2",
+            "request": "launch",
+            "mainClass": "exercicio02Aula2",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicio01Aula2",
+            "request": "launch",
+            "mainClass": "exercicio01Aula2",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicioTeste3",
+            "request": "launch",
+            "mainClass": "exercicioTeste3",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicioTeste2",
+            "request": "launch",
+            "mainClass": "exercicioTeste2",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-aula1<algoritimo_ad0ecd6c>",
+            "request": "launch",
+            "mainClass": "aula1",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-exercicio<algoritimo_ad0ecd6c>",
+            "request": "launch",
+            "mainClass": "exercicio",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-main<algoritimo_ad0ecd6c>",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "algoritimo_ad0ecd6c"
+        }
+    ]
+}

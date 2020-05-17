@@ -1,0 +1,9 @@
+01 - Escreva um algoritmo que permita ao usuário informar três valores numéricos e o programa deve informar se esses valores podem formar os lados de um triângulo.
+
+02 - Escreva um algoritmo que a partir do tamanho dos três lados de um triângulo informe ao usuário se esse triângulo é isóceles, equilátero ou escaleno. 
+
+03 - Escreva um algoritmo que solicite ao usuário que informe uma temperatura em graus celcius e converta o valor para as escalas kelvin e farenheit.
+
+04 - Escereva um algoritmo que permita ao usuário informar as datas de aniversário de duas pessoas, separadas em ano, mês e dia do nascimento, e informe qual das duas pessoas é mais velha. 
+
+05 - Escreva um programa que Leia a velocidade máxima permitida em uma avenida e a velocidade com que o motorista estava dirigindo nela. Calcule e mostre a multa que uma pessoa vai receber, sabendo que são pagos: R$ 50 reais se o motorista ultrapassar em até 10km/h a velocidade permitida; R$ 100 reais, se o motorista ultrapassar de 11 a 30 km/h a velocidade permitida; e R$ 200 reais, se estiver acima de 31km/h da velocidade permitida

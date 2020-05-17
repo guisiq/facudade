@@ -1,0 +1,33 @@
+As respostas deverá ser feita no cardeno com todos os cálculos utilizados
+ Tire fotos das respostas e anexar nessa atividade
+
+1. Defina com suas palavras o que é Notação por Excesso
+
+2. Represente os números positivos e negativos em notação por Excesso de 25
+
+3. Represente os números positivos e negativos em notação por Excesso de 28
+
+4. Qual o MSB da questão 2 e 3
+
+5. Qual a Notação por Excesso de N da questão 2 e 3
+
+6. Converta da Notação de Excesso para Decimal, os seguintes Valores, use os cálculos na resposta
+
+a) 0102
+b) 011002
+c) 111102
+d) 111110102
+e) 01011111012
+
+7. Converta de Decimal para Notação de Excesso, os seguintes Valores, use os cálculos na resposta
+
+a) 210
+b) 710
+c) 10010
+d) 51210
+e) -1010
+f) -810
+g) -310
+h) -1510
+
+
