@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - aula03",
+            "request": "launch",
+            "mainClass": "aula03",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - exercicio06Aula2",
             "request": "launch",
             "mainClass": "exercicio06Aula2",
