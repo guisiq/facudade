@@ -1,0 +1,42 @@
+Os exercícios abaixo devem utilizar apenas os conhecimentos adquiridos em sala de aula, são eles: Entrada e saída de dados; Atribuição de valores; Operadores matemáticos, relacionais e lógicos; e os Tipos de dados: letra, texto, inteiro, real e logico.
+
+1 - Escreva um programa que permita ao usuário informar três valores correspondentes aos lados de um triângulo e informe se esses lados são válidos para a formação dessa figura geométrica.
+
+2 - Considere uma pessoa que se desloca de carro ao longo de uma rodovia. Escreva um programa que solicite do usuário: o km do início da viagem, o km do fim da viagem, o horário de início da viagem, o horário do fim da viagem, o consumo médio do carro eo valor  do litro de combustível utilizado. O programa deve calcular e apresentar:
+- a velocidade média 
+- o valor gasto cmo combustível
+
+3 - Escreva um programa que solicite do usuário a idade de diversas pessoas (enquanto houver o desejo de continuar digitando), ao final o programa deve apresentar:
+- a quantidade de crianças (até 12 anos)
+- a quantidade de adolescentes (até 18 anos)
+- a quantidade de jovens (até 25 anos)
+- a quantidade de adultos (até 59 anos)
+- a quantidade de idosos (a partir de 60 anos) 
+
+4 - Considere um programa para avaliação de um rebanho bovino. Ele deve permitir ao usuário informar os seguintes dados de bovinos: peso, idade, altura, sexo. O programa deve apresentar ao final o seguinte relatório:
+- Altura do bovino mais alto
+- Peso do bovino mais pesado
+- A média de peso dos bovinos
+- A quantidade de machos e fêmeas no rebanho
+
+5 - Escreva um programa que permita ao usuário simular um jogo do tipo "21" para dois jogadores. Para cada jogador o programa deve selecionar randomicamente valores entre 0 e 10 e apresentar ao usuário. Cada valor será adicionado à pontuação do jogador até que ele deseje encerrar (ou até que ultrapasse o valor de 21). O vencedor será o jogador cuja pontuação mais se aproximar de 21 (caso tenham a mesma pontuação ou caso os dois extrapolem o valor 21, será considerado empate).
+
+O programa deve apresentar a pontuação de cada jogador e também o resultado do jogo.
+
+6 - O algoritmo deve verificar se os dados de usuário e senha são verdadeiros ou não. 
+Solicite os dados de usuário e senha; 
+Informe: O usuário e a senha informados são? (verdadeiro ou falso).
+
+
+7 - Faça um algoritmo que verifique se é mais vantajoso abastecer gasolina ou álcool. 
+Solicite os valores da gasolina e do álcool;
+Informe se a gasolina e se o álcool é mais vantajoso (verdadeiro ou falso).
+Dica: Se o preço do álcool for maior que 70% do preço da gasolina, a gasolina é mais vantajosa.
+
+
+8- O algoritmo deve solicitar as notas do aluno (A1 e A2) e informar se está aprovado, reprovado ou de exame conforme as regras da Unitins. O algoritmo deve informar também quanto o aluno precisa tirar no exame para passar na disciplina.
+Aprovado >= 7,0;
+Reprovado < 4,0;
+Exame >= 4,0 e < 7,0;
+Dica: MF = (MP + Exame) / 2 
+(MF = Média Final, MP = Média Parcial)

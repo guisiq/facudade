@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Aula3exercicio04",
+            "request": "launch",
+            "mainClass": "Aula3exercicio04",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Aula3exercicio02",
+            "request": "launch",
+            "mainClass": "Aula3exercicio02",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicio03Aula3",
+            "request": "launch",
+            "mainClass": "exercicio03Aula3",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - exercicio01Aula3",
+            "request": "launch",
+            "mainClass": "exercicio01Aula3",
+            "projectName": "algoritimo_ad0ecd6c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - aula03",
             "request": "launch",
             "mainClass": "aula03",
