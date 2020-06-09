@@ -1,0 +1,19 @@
+01 - JOGO - O programa deve preencher automaticamente um vetor de 100 posições om valores aleatórios. O usuário terá 10 chances de "chutar" valores e o programa deve contar quantas vezes o usuário chutou um valor que estivesse no vetor. 
+
+02 - Escreva um programa que permita ao usuário informar a marca, o modelo, o ano e o valor de carros de uma loja de usados (quantas posições você achar adequado). O usuário terá a opção de fazer pesquisas, por intervalos de ano e de valor. O programa deve mostrar somente os dados dos carros que estiverem dentro do intervalo desejado pelo usuário. 
+
+Exemplo:
+VW    Gol    1998    12000
+GM    Astra    2000    13000
+FIAT    Palio    2005    14000
+KIA    Ceratto    2020    90000
+JEEP    Compass    2016    87000
+HONDA    Civic    2013    40000
+
+Pesquisa por ano: 2005 a 2014
+FIAT    Palio    2005    14000
+HONDA    Civic    2013    40000
+
+Pesquisa por valor:50000 a 90000
+KIA    Ceratto    2020    90000
+JEEP    Compass    2016    87000

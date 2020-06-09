@@ -20,8 +20,8 @@ public class Aula3exercicio04 {
         float pesoMedioDoBoi = 0;
         float idademedia     = 0;
         int idadeDoBoi       = 0;
-        int boiMaisVelho;
-        int boiMaisjoven;
+        int boiMaisVelho ;
+        int boiMaisjoven ;
         int diferençaDeIdade = 0;
         int quantDeBoiMacho  = 0;
         int quantDeBoiFemea  = 0;
@@ -46,7 +46,7 @@ public class Aula3exercicio04 {
 
         System.out.println("digite o sexo do boi [m]macho [f]femea");
         sexoDoBoi = Leitor.next().charAt(0);
-        for (boolean continuar1 = false; continuar1 == true;) {
+        for (boolean continuar1 = true; continuar1 == true;) {
             if (sexoDoBoi != 'm' && sexoDoBoi != 'f') {
                 System.out.println(
                         "a letra digitada nao coresponde as auternativa digite [m] para macho ou [f] para femea");
@@ -75,7 +75,8 @@ public class Aula3exercicio04 {
         pesoMedioDoBoi = (pesoMedioDoBoi * (quantDeBoiMacho + quantDeBoiFemea - 1) + pesoDoBoi) / (quantDeBoiMacho + quantDeBoiFemea);
         //- calcula a média de idade e a diferença de idade entre o mais velho e o mais novo.
         idademedia = (idademedia * (quantDeBoiFemea + quantDeBoiMacho - 1) + idadeDigitada)/ (quantDeBoiMacho + quantDeBoiFemea);
-
+        System.out.println("digite um numero negativo quan perguntar o pesso caso desege parar ");
+        
         while (continuar == true) {
 
             // dados de bovinos: peso, idade, altura, sexo.
@@ -108,7 +109,7 @@ public class Aula3exercicio04 {
             }
 
             //- Peso do bovino mais pesado
-            if (pesoDoBoi > boiMaisPesado) {
+            if (pesoDoBoi > boiMaisPesado  )  {
                 boiMaisPesado = pesoDoBoi;
             }
             //- A quantidade de machos e fêmeas no rebanho
@@ -139,7 +140,7 @@ public class Aula3exercicio04 {
         //        - A média de peso dos bovinos
         System.out.println("o peso medio dos bois e de  " +pesoMedioDoBoi+ "kg" ) ;
         //        - A quantidade de machos e fêmeas no rebanho
-        System.out.println("ha" + quantDeBoiFemea + " femeas e  "+ quantDeBoiMacho+ "bois machos" ) ;
+        System.out.println("ha " + quantDeBoiFemea + " femeas e  "+ quantDeBoiMacho+ " machos" ) ;
         //        - calcula a média de idade e a diferença de idade entre o mais velho e o mais novo.
         System.out.println("a media de idades dos bois e de  " + idademedia + " anos e a diferenca de idade entre o boi mais velho e o mais joven e de   "+ diferençaDeIdade +"anos" ) ;
         Leitor.close();
