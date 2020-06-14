@@ -6,6 +6,36 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - aula1",
+            "request": "launch",
+            "mainClass": "aula1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - aula1",
+            "request": "launch",
+            "mainClass": "aula1.aula1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - labirintoV2_1",
+            "request": "launch",
+            "mainClass": "labirintoV2_1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - /tarefas/labirintoDebug",
+            "request": "launch",
+            "mainClass": "labirintoDebug"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - aula6exercicio03",
+            "request": "launch",
+            "mainClass": "aula6exercicio03"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - labirintoV2_1",
             "request": "launch",
             "mainClass": "labirintoV2_1",
@@ -23,173 +53,6 @@
             "name": "CodeLens (Launch) - labirintoDebug",
             "request": "launch",
             "mainClass": "labirintoDebug",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - labirinto",
-            "request": "launch",
-            "mainClass": "labirinto",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Aula5exercicio02",
-            "request": "launch",
-            "mainClass": "Aula5exercicio02",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio2",
-            "request": "launch",
-            "mainClass": "exercicio2",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio1",
-            "request": "launch",
-            "mainClass": "exercicio1",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Aula3exercicio07",
-            "request": "launch",
-            "mainClass": "Aula3exercicio07",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Aula3exercicio06",
-            "request": "launch",
-            "mainClass": "Aula3exercicio06",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Aula3exercicio05",
-            "request": "launch",
-            "mainClass": "Aula3exercicio05",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Aula3exercicio04",
-            "request": "launch",
-            "mainClass": "Aula3exercicio04",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Aula3exercicio02",
-            "request": "launch",
-            "mainClass": "Aula3exercicio02",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio03Aula3",
-            "request": "launch",
-            "mainClass": "exercicio03Aula3",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio01Aula3",
-            "request": "launch",
-            "mainClass": "exercicio01Aula3",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - aula03",
-            "request": "launch",
-            "mainClass": "aula03",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio06Aula2",
-            "request": "launch",
-            "mainClass": "exercicio06Aula2",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio05Aula2",
-            "request": "launch",
-            "mainClass": "exercicio05Aula2",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio04Aula2",
-            "request": "launch",
-            "mainClass": "exercicio04Aula2",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio03Aula2",
-            "request": "launch",
-            "mainClass": "exercicio03Aula2",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio02Aula2",
-            "request": "launch",
-            "mainClass": "exercicio02Aula2",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicio01Aula2",
-            "request": "launch",
-            "mainClass": "exercicio01Aula2",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicioTeste3",
-            "request": "launch",
-            "mainClass": "exercicioTeste3",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - exercicioTeste2",
-            "request": "launch",
-            "mainClass": "exercicioTeste2",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-aula1<algoritimo_ad0ecd6c>",
-            "request": "launch",
-            "mainClass": "aula1",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-exercicio<algoritimo_ad0ecd6c>",
-            "request": "launch",
-            "mainClass": "exercicio",
-            "projectName": "algoritimo_ad0ecd6c"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-main<algoritimo_ad0ecd6c>",
-            "request": "launch",
-            "mainClass": "main",
             "projectName": "algoritimo_ad0ecd6c"
         }
     ]

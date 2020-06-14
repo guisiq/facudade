@@ -5,9 +5,10 @@ public class labirintoV2_1 {
         boolean expandiu = true;
         boolean camilho = false;
 
-        final Random aleatorio = new Random();
+        Random aleatorio = new Random();
+        int i2 = 0;
         int labirintosSemSaida = 0;        
-        final int[][] labirinto = new int[20][20];
+        int[][] labirinto = new int[20][20];
         //0 espaco em branco
         //1 e 5 paredes
         //2 para começo e fim  
@@ -34,19 +35,30 @@ public class labirintoV2_1 {
             que a metade disso(162)numeros mais aultos gerram maior probabilidade de lobirintos sem saidas 
             para comparacao com i = 150 gerou 16765 labirintos sem saida
             */
-            for (int i = 0; i < 140; i++) {
+            i2 = 0;
+            for (int i = 0; i < 150; i++) {
                 int x;
                 int y;
                 int aredor = 0;
+                i2++;
+                if (i2 % 1550 == 0) {
+                    System.out.println("i2/1550 = " + i2 / 1550);
+                    if(i2 % (15500*6) == 0){
+                        i = 155;
+                        expandiu = false;
+                    }
+                }
                 x = aleatorio.nextInt(20);
                 y = aleatorio.nextInt(20);
-                if (labirinto[x][y] == 0) {
+                if (labirinto[x][y] == 0 && !((x == 1 && y== 1 ) || (x == 18 && y== 18 ))) {
                     // cauculando os aredores da posiçao selecionada pelo sorteio e armazenando em aredor
-                    // se aredor for maior que 4 sera sorteado outra posisao para as paredes ficarem mais espalhadas  
+                    // se aredor for maior que 3 sera sorteado outra posisao para as paredes ficarem mais espalhadas  
                     if (labirinto[x + 1][y + 1] == 1) {
+                        aredor++;
                         aredor++;
                     }
                     if (labirinto[x + 1][y - 1] == 1) {
+                        aredor++;
                         aredor++;
                     }
                     if (labirinto[x + 1][y] == 1) {
@@ -60,18 +72,21 @@ public class labirintoV2_1 {
                     }
                     if (labirinto[x - 1][y - 1] == 1) {
                         aredor++;
+                        aredor++;
                     }
                     if (labirinto[x - 1][y + 1] == 1) {
+                        aredor++;
                         aredor++;
                     }
                     if (labirinto[x - 1][y] == 1) {
                         aredor++;
                     }
                     //testando se o ponto escolhido  esta colado em auguma parede 
-                    if (labirinto[x + 1][y-1] == 5 || labirinto[x + 1][y + 1] == 5 || labirinto[x - 1][y-1] ==5|| labirinto[x - 1][y+1] ==5) {
-                        aredor = aredor + 1 ;
+                    if (labirinto[x + 1][y - 1] == 5 || labirinto[x + 1][y + 1] == 5 || labirinto[x - 1][y - 1] == 5
+                            || labirinto[x - 1][y + 1] == 5) {
+                        aredor = aredor + 3;
                     }
-                    if (aredor <= 3) {
+                    if (aredor <= 4) {
                         labirinto[x][y] = 1;
                         aredor = 0;
                     } else {
@@ -80,22 +95,9 @@ public class labirintoV2_1 {
                     }
                 } else {
                     i--;
+                    i2--;
                 }
             }
-            // //desenhando o labirinto para debuger 
-            // System.out.println("desenhando o labirinto para debuger");
-            // for (int colunaTeste = 0; colunaTeste < labirinto.length; colunaTeste++) {
-            //     for (int linhateste = 0; linhateste < labirinto[colunaTeste].length; linhateste++) {
-            //         if (labirinto[colunaTeste][linhateste] == 0) {
-            //             System.out.print("  ");
-            //         } else {
-            //             System.out.print(labirinto[colunaTeste][linhateste] + " ");
-            //         }
-            //     }
-            //     System.out.println();
-            // }
-            //testando se tem caminhos posiveis caminho
-
             labirinto[1][0] = 3;  //começo
             labirinto[18][19] = 0;//fim  
             while (!camilho && expandiu) {
@@ -131,39 +133,14 @@ public class labirintoV2_1 {
                             labirinto[coluna][linha] = 4;
                         }
                     }
-                    // //desenhando o labirinto para debuger
-                    // System.out.println("desenhando o labirinto para debuger 2");
-                    // System.out.println("expandiu :" + expandiu);
-                    // System.out.println("caminho :" + camilho);
-                    // for (int colunaTeste = 0; colunaTeste < labirinto.length; colunaTeste++) {
-                    //     for (int linhateste = 0; linhateste < labirinto[colunaTeste].length; linhateste++) {
-                    //         if (labirinto[colunaTeste][linhateste] == 0) {
-                    //             System.out.print("  ");
-                    //         } else {
-                    //             System.out.print(labirinto[colunaTeste][linhateste] + " ");
-                    //         }
-                    //     }
-                    //     System.out.println();
-                    // }
                 }
                 expandiu = false;
                 //desenhando o labirinto para debuger
                 labirintosSemSaida++;
-                    System.out.println("/------------foi gerado o seguinte labirinto sem saida-----------/ :");
+                if (labirintosSemSaida%10==0) {
+                    System.out.println("foram gerados :" + labirintosSemSaida + "labirintos sem saida ");
+                }
                     
-                    // for (int colunaTeste = 0; colunaTeste < labirinto.length; colunaTeste++) {
-                    //     for (int linhateste = 0; linhateste < labirinto[colunaTeste].length; linhateste++) {
-                    //         if (labirinto[colunaTeste][linhateste] == 0 || labirinto[colunaTeste][linhateste] == 3
-                    //                 || labirinto[colunaTeste][linhateste] == 4) {
-                    //             System.out.print("  ");
-                    //         } else {
-                    //             System.out.print(labirinto[colunaTeste][linhateste] + " ");
-                    //         }
-                    //     }
-                    //     System.out.println();
-                    // }
-                    // System.out.println("/-----------------ira ser gerado outro labirinto-----------------/ :");
-
             }
 
         }
