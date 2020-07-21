@@ -4,6 +4,14 @@
     // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - aula6exercicio04",
+            "request": "launch",
+            "mainClass": "aula6exercicio04"
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - aula1",

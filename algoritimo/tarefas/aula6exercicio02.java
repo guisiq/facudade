@@ -1,4 +1,4 @@
-//01 - Escreva um programa que permita ao usuário preencher uma matriz de dimensões 3x3 e imprima na tela a matriz e a soma dos elementos de cada linha e de cada coluna. 
+//02 - Escreva um programa que permita ao usuário preencher uma matriz de dimensões 3 x 3 e imprima na tela a soma dos elementos da diagonal principal.
 
 import java.util.Scanner;
 public class aula6exercicio02 {

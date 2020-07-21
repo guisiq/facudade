@@ -20,7 +20,7 @@ public class aula6exercicio03{
                         soma = soma + matriz[i][coluna];
                     }
                     matriz[linha][coluna] = soma;
-                    System.out.print(soma+" ");
+                    System.out.print(soma+"  ");
                 } else {
                     System.out.print(matriz[linha][coluna]+"  ");
                 }
