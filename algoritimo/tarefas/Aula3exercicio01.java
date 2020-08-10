@@ -18,7 +18,7 @@ public class Aula3exercicio01 {
      System.out.print("lado AB :");
      ladoAB = Leitor.nextInt(); 
      System.out.print("lado BC :");
-     ladoBC = Leitor.nextInt(); 
+     ladoBC = Leitor.next; 
      System.out.print("lado CA :");
      ladoCA = Leitor.nextInt();
      if (ladoAB > (ladoBC + ladoCA)  ) {

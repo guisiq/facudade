@@ -47,15 +47,14 @@ class prova2 {
             funcao = Leitor.nextInt();
             if(funcao == 1){
                 for (int qantProdutos = 0; qantProdutos <= qantProdutos1 ; qantProdutos++){
-
-                    System.out.println("=======================================");
-                    System.out.println("nome:"+ nome[qantProdutos]);
-                    System.out.println("preco de compra :"+ precoDeCompra[qantProdutos]);
-                    System.out.println("preco de venda:"+ precoDeVenda[qantProdutos]);
-                    System.out.println("lucro na venda :"+(((precoDeVenda[qantProdutos]/precoDeCompra[qantProdutos])-1)*100));
-                    System.out.println("validade :"+ validade[0][qantProdutos]+"/"+validade[1][qantProdutos]);    
-                    System.out.println("========================================");
-                
+                    
+                System.out.println("=======================================");
+                System.out.println("nome:"+ nome[qantProdutos]);
+                System.out.println("preco de compra :"+ precoDeCompra[qantProdutos]);
+                System.out.println("preco de venda:"+ precoDeVenda[qantProdutos]);
+                System.out.println("lucro na venda :"+(((precoDeVenda[qantProdutos]/precoDeCompra[qantProdutos])-1)*100));
+                System.out.println("validade :"+ validade[0][qantProdutos]+"/"+validade[1][qantProdutos]);    
+                System.out.println("========================================");
                 }
                 
             }else if(funcao == 2){
@@ -88,6 +87,4 @@ class prova2 {
         }
     }
 }
-
-
 

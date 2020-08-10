@@ -2,9 +2,23 @@
 // Class name must be "Main"
 // Libraries included:
 // json simple, guava, apache commons lang3, junit, jmock
-
+/*Escreva um programa que permita a um usuário armazenar e consultar informações de
+produtos – 
+nome do produto 
+preço de compra, 
+preço de venda,
+mês e ano de validade - ,
+contendo as seguintes funcionalidades:
+A) Deve permitir um máximo de 100 produtos;
+B) Inserir um novo produto (sem apagar os anteriores) (1 ponto)
+C) Consultar um produto pelo nome e exibir o lucro desse produto(1,5 pontos)
+D) Informar uma data no formato mês/ano e listar todos os produtos com vencimento
+menor ou igual a essa data (2 pontos)
+E) Informar o produto com maior preço de venda (2 pontos)
+F) Listar o nome e a margem de lucro (em porcentagem) de cada produto – 1 ponto
+*/
 import java.util.Scanner;
-class prova2 {
+class prova {
     public static void main(String[] args) {
      Scanner Leitor = new Scanner(System.in);
         // declarando as variaveis 
@@ -44,17 +58,22 @@ class prova2 {
             System.out.println("digite 1 para ver a lista de produtos com suas informacoes ");
             System.out.println("digite 2 para pesquisar um produto pela validade");
             System.out.println("digite 3 para pesquisar pelo nome ");
+            
             funcao = Leitor.nextInt();
             if(funcao == 1){
+                double maiorPreco;
                 for (int qantProdutos = 0; qantProdutos <= qantProdutos1 ; qantProdutos++){
-
-                    System.out.println("=======================================");
-                    System.out.println("nome:"+ nome[qantProdutos]);
-                    System.out.println("preco de compra :"+ precoDeCompra[qantProdutos]);
-                    System.out.println("preco de venda:"+ precoDeVenda[qantProdutos]);
-                    System.out.println("lucro na venda :"+(((precoDeVenda[qantProdutos]/precoDeCompra[qantProdutos])-1)*100));
-                    System.out.println("validade :"+ validade[0][qantProdutos]+"/"+validade[1][qantProdutos]);    
-                    System.out.println("========================================");
+                    
+                System.out.println("=======================================");
+                System.out.println("nome:"+ nome[qantProdutos]);
+                System.out.println("preco de compra :"+ precoDeCompra[qantProdutos]);
+                System.out.println("preco de venda:"+ precoDeVenda[qantProdutos]);
+                System.out.println("lucro na venda :"+(((precoDeVenda[qantProdutos]/precoDeCompra[qantProdutos])-1)*100));
+                System.out.println("validade :"+ validade[0][qantProdutos]+"/"+validade[1][qantProdutos]);    
+                System.out.println("========================================");
+                    if (precoDeVenda[qantProdutos]> maiorPreco){
+                    maiorPreco = precoDeVenda[qantProdutos];
+                    }
                 
                 }
                 
@@ -84,10 +103,32 @@ class prova2 {
 
                 }
             }else if(funcao == 3){
+                System.out.println("digite um nome para buscar entre os produtos cadastrados");
+                String nomeBusca;
+                for (int qantProdutos = 0; qantProdutos <= qantProdutos1 ; qantProdutos++){
+                    if(nome[qantProdutos].equals(nomeBusca)){
+                            System.out.println("=======================================");
+                            System.out.println("nome:"+ nome[qantProdutos]);
+                            System.out.println("preco de compra :"+ precoDeCompra[qantProdutos]);
+                            System.out.println("preco de venda:"+ precoDeVenda[qantProdutos]);
+                            System.out.println("lucro na venda :"+(((precoDeVenda[qantProdutos]/precoDeCompra[qantProdutos])-1)*100));
+                            System.out.println("validade :"+ validade[0][qantProdutos]+"/"+validade[1][qantProdutos]);    
+                            System.out.println("========================================");
+                
+                    }
+                }
+                
             }
         }
+
+        
+        
+        
+        
+        
+        
+        
     }
 }
-
 
 
