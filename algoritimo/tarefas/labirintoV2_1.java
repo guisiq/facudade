@@ -19,7 +19,7 @@ public class labirintoV2_1 {
 
         while (!camilho) {
             expandiu = true;
-            camilho = false;
+            camilho  = false;
             //fazendo as paredes externas(contorno)
             for (int coluna = 0; coluna < labirinto.length; coluna++) {
                 for (int linha = 0; linha < labirinto[coluna].length; linha++) {
@@ -159,7 +159,8 @@ public class labirintoV2_1 {
             }
             System.out.println();
         }
-               
-    
+
+        
+
     }
 }

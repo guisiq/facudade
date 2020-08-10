@@ -21,8 +21,8 @@ public class exercicio06Aula2 {
                 System.out.println("a nota que voce digitou esta fora do intervalo posivel digite sua nota entre 0 e 10 ");
             } else {
                 intervalo = true;
-            }  
-        }while (!intervalo) ;
+            }
+        }while (!intervalo);
 
         do{ 
             System.out.println(" digite a segunda nota do aluno : ");
