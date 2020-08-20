@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - labirintoV2_1",
+            "request": "launch",
+            "mainClass": "labirintoV2_1"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
