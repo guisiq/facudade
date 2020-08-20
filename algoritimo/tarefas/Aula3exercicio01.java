@@ -1,7 +1,7 @@
 /**
 * 1 - Escreva um programa que permita ao usuário informar três valores correspondentes aos lados de um triângulo e informe se esses lados são válidos para a formação dessa figura geométrica.
 *
- */
+*/
 import java.util.Scanner;
 public class Aula3exercicio01 {
     public static void main(String[] args) {

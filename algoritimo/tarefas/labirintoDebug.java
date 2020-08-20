@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class labirinto {
+public class labirintoDebug {
     public static void main(String[] args) {
         boolean expandiu = true;
         boolean camilho = false;
