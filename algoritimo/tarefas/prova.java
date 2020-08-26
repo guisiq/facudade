@@ -61,7 +61,7 @@ class prova {
             
             funcao = Leitor.nextInt();
             if(funcao == 1){
-                double maiorPreco;
+                double maiorPreco=0;
                 for (int qantProdutos = 0; qantProdutos <= qantProdutos1 ; qantProdutos++){
                     
                 System.out.println("=======================================");
@@ -104,7 +104,7 @@ class prova {
                 }
             }else if(funcao == 3){
                 System.out.println("digite um nome para buscar entre os produtos cadastrados");
-                String nomeBusca;
+                String nomeBusca = Leitor.next();
                 for (int qantProdutos = 0; qantProdutos <= qantProdutos1 ; qantProdutos++){
                     if(nome[qantProdutos].equals(nomeBusca)){
                             System.out.println("=======================================");
