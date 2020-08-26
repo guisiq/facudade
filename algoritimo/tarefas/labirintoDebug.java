@@ -18,9 +18,9 @@ public class labirintoDebug {
             expandiu = true;
             camilho = false;
             //fazendo as paredes externas(contorno)
-            for (int coluna = 0; coluna < labirinto.length; coluna++) {
+            for (int coluna = 0 ; coluna < labirinto.length; coluna++) {
                 for (int linha = 0; linha < labirinto[coluna].length; linha++) {
-                    if (coluna == 0 || coluna == labirinto.length - 1 || linha == 0
+                    if ( coluna == 0 || coluna == labirinto.length - 1 || linha == 0
                             || linha == labirinto[0].length - 1) {
                         labirinto[coluna][linha] = 1;
                     } else {
