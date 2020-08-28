@@ -14,7 +14,7 @@ adicione em um vetor de tamanho 10. Após
 preencher o vetor, imprima TODOS os dados
 do vetor.
 
-Questão 03--------------------------------------
+Questão 03--------------------------------------ok
 Melhore o programa anterior adicionando 3 funções:
 ● Professor lerProfessor(), esse método deve realizar a leitura
 dos dados e retornar um objeto da classe Professor. Não

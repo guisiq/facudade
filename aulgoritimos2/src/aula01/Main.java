@@ -40,9 +40,9 @@ package aula01;
 
 public class Main {
 
-	void imprimir(Professor[] vetor){
+	static void imprimir(Professor[] vetor){
 		for (Professor professor : vetor) {
-			System.out.println("==================================");
+			System.out.println("===================================");
 			System.out.println("nome:"+professor.nome);
 			System.out.print("nivel academico:");
 			switch (professor.nivelAcademico) {
@@ -68,24 +68,29 @@ public class Main {
 					break;			
 			
 			}
-			System.out.println("materias :");
-			for (String[] materia : professor.materias ) {
-				
+			/**/
+			for (String materia : professor.materias ) {
+				System.out.print("materias :");
+				System.out.println(materia);	
 			}
-
-			System.out.println("endereço");
-			System.out.println("==================================");
+			/**/
+			System.out.println("endereço:");
+			System.out.println("	cep           :"+professor.endereco.cep);
+			System.out.println("	quadra        :"+professor.endereco.quadra);
+			System.out.println("	rua           :"+professor.endereco.rua);
+			System.out.println("	numero da casa:"+professor.endereco.numeroDaCasa);
+			System.out.println("===================================");
 		}
 	}
 	public static void main(String[] args) {
-		Professor[] profesores = new Professor[5];
-		profesores[0] = new Professor();
+		Professor[] profesores = new Professor[10];
+		System.out.println("cadastre os professores ");
 		for (int i = 0; i < profesores.length; i++) {
-			System.out.println("==================================");
+			System.out.println("=================" + i + "=================");
 			profesores[i] = new Professor();
-			System.out.println("==================================");
-
+			System.out.println("===================================");
 		}
-		
+		imprimir(profesores);
+		System.out.println("informe o maximo de alunos que poderao ser cadaastrados");		
 	}
 }
