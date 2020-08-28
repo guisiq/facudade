@@ -26,7 +26,7 @@ public class aula5exercicio01 {
         }
         System.out.println(acertos + " dos seus palpites fazem parte dos 100 numeros sorteados");
 
-        
+        leitor.close();
         
     }
 }
