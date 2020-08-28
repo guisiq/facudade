@@ -40,6 +40,43 @@ package aula01;
 
 public class Main {
 
+	void imprimir(Professor[] vetor){
+		for (Professor professor : vetor) {
+			System.out.println("==================================");
+			System.out.println("nome:"+professor.nome);
+			System.out.print("nivel academico:");
+			switch (professor.nivelAcademico) {
+						// 1- graduado 
+						// 2- mestre
+						// 3- doutor 
+						// 4- posui pos-doutorado
+				case 1:
+					System.out.println("graduado");
+					break;
+				case 2:
+					System.out.println("mestre");
+					break;
+				case 3:
+					System.out.println("doutor");					
+					break;
+				case 4:
+					System.out.println("posui pos-doutorado");
+					break;
+
+				default:
+					System.out.println("posui" +(professor.nivelAcademico-3)+" pos-doutorado");
+					break;			
+			
+			}
+			System.out.println("materias :");
+			for (String[] materia : professor.materias ) {
+				
+			}
+
+			System.out.println("endereço");
+			System.out.println("==================================");
+		}
+	}
 	public static void main(String[] args) {
 		Professor[] profesores = new Professor[5];
 		profesores[0] = new Professor();
