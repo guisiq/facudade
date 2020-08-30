@@ -6,28 +6,10 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< HEAD
-            "name": "CodeLens (Launch) - exercicio2prova",
-            "request": "launch",
-            "mainClass": "exercicio2prova"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Main",
-            "request": "launch",
-            "mainClass": "Main"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - aula6exercicio01",
-            "request": "launch",
-            "mainClass": "aula6exercicio01"
-=======
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
             "mainClass": "aula01.Main",
             "projectName": "aulgoritimos2"
->>>>>>> 42af704bf7a87857afb67791bf4eaac8b225a12d
         },
         {
             "type": "java",

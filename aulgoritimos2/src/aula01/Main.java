@@ -38,9 +38,12 @@ aprovado ou reprovado.
  */
 package aula01;
 
+import java.util.Scanner;
+
 public class Main {
 
 	static void imprimir(Professor[] vetor){
+
 		for (Professor professor : vetor) {
 			System.out.println("===================================");
 			System.out.println("nome:"+professor.nome);
@@ -83,6 +86,7 @@ public class Main {
 		}
 	}
 	public static void main(String[] args) {
+		Scanner Leitor = new Scanner(System.in);
 		Professor[] profesores = new Professor[10];
 		System.out.println("cadastre os professores ");
 		for (int i = 0; i < profesores.length; i++) {
@@ -91,6 +95,8 @@ public class Main {
 			System.out.println("===================================");
 		}
 		imprimir(profesores);
-		System.out.println("informe o maximo de alunos que poderao ser cadaastrados");		
+		System.out.println("informe o maximo de alunos que poderao ser cadaastrados");
+		Aluno[] alunos = new Aluno[Leitor.nextInt()];		
+		
 	}
 }
