@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - teat",
+            "request": "launch",
+            "mainClass": "aula01.teat",
+            "projectName": "aulgoritimos2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
             "mainClass": "aula01.Main",

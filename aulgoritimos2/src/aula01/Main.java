@@ -92,6 +92,7 @@ public class Main {
 		for (int i = 0; i < profesores.length; i++) {
 			System.out.println("=================" + i + "=================");
 			profesores[i] = new Professor();
+			profesores[i].lerProfessor();
 			System.out.println("===================================");
 		}
 		imprimir(profesores);

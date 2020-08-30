@@ -12,7 +12,7 @@ public class Professor {
 	String[] materias  ;//nome das materias ministradas 
 	Endereco endereco  ;
 	//#region questao2
-	public Professor(){
+	public void lerProfessor(){
 		Scanner leitor = new Scanner(System.in);
 		System.out.println("digite o nome do profesor(a) ");
 		this.nome = leitor.next();
@@ -33,9 +33,6 @@ public class Professor {
         leitor.close();
 
 
-	}
-	public static void Inprimir(int indice){
-		System.out.println("");
 	}
 	
 
