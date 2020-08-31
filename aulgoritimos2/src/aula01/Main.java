@@ -98,6 +98,9 @@ public class Main {
 		imprimir(profesores);
 		System.out.println("informe o maximo de alunos que poderao ser cadaastrados");
 		Aluno[] alunos = new Aluno[Leitor.nextInt()];		
-		
+		for (int i = 0; i < alunos.length; i++) {
+			alunos[i] =new Aluno(); 
+		}
+		Leitor.close();
 	}
 }
