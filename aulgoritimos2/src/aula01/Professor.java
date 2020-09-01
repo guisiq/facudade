@@ -15,7 +15,7 @@ public class Professor {
 	public void lerProfessor(){
 		Scanner leitor = new Scanner(System.in);
 		System.out.println("digite o nome do profesor(a) ");
-		this.nome = leitor.next();
+		this.nome = leitor.nextLine();
 		System.out.println(" digite o nivel academico do professor(a) ");
 		System.out.println("    1-graduado");
 		System.out.println("    2-mestre");
@@ -29,7 +29,8 @@ public class Professor {
 			System.out.println("digite o nome da "+(i+1)+"° materia que o professor(a) ministra ");
 			this.materias[i]= leitor.next();
 		}
-        this.endereco = new Endereco();
+		this.endereco = new Endereco();
+		this.endereco.lerEndereco();
         leitor.close();
 
 

@@ -8,7 +8,7 @@ public class Endereco {
 	String rua;
 	int numeroDaCasa;
 	// estou utilizando o metodo construto no lugor da funcao lerEndereço(); 
-	public Endereco(){
+	public void lerEndereco(){
 		Scanner leitor = new Scanner(System.in);
 		System.out.println("==================================");
 		System.out.println("digite o cep");
@@ -23,4 +23,5 @@ public class Endereco {
         leitor.close();
         
 	}  
+
 }

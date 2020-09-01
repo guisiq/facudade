@@ -101,6 +101,22 @@ public class Main {
 		for (int i = 0; i < alunos.length; i++) {
 			alunos[i] =new Aluno(); 
 		}
+		System.out.println("qual digite o numero do aluno :");
+		int aux = Leitor.nextInt();
+		System.out.println("escolha que funcao deseja accesar :");
+
+		System.out.println("	1-ver a media do aluno ");
+		System.out.println("	1-se o aluno foi aprovado na materia ");
+		System.out.println("	1-imprimir todas as notas do aluno ");
+		int funcao = Leitor.nextInt();
+		switch (funcao) {
+			case 1:
+				System.out.println();
+				break;
+		
+			default:
+				break;
+		}
 		Leitor.close();
 	}
 }
