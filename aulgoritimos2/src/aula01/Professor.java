@@ -31,9 +31,6 @@ public class Professor {
 		}
 		this.endereco = new Endereco();
 		this.endereco.lerEndereco();
-        leitor.close();
-
-
 	}
 	
 

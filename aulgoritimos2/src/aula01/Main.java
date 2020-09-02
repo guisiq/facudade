@@ -94,26 +94,63 @@ public class Main {
 			profesores[i] = new Professor();
 			profesores[i].lerProfessor();
 			System.out.println("===================================");
+			System.out.println();
 		}
 		imprimir(profesores);
 		System.out.println("informe o maximo de alunos que poderao ser cadaastrados");
 		Aluno[] alunos = new Aluno[Leitor.nextInt()];		
 		for (int i = 0; i < alunos.length; i++) {
-			alunos[i] =new Aluno(); 
+			alunos[i] =new Aluno();
+			alunos[i].lerAluno();
 		}
-		System.out.println("qual digite o numero do aluno :");
-		int aux = Leitor.nextInt();
+
 		System.out.println("escolha que funcao deseja accesar :");
 
 		System.out.println("	1-ver a media do aluno ");
+		System.out.println("	2-imprimir todas as notas do aluno ");
 		System.out.println("	1-se o aluno foi aprovado na materia ");
-		System.out.println("	1-imprimir todas as notas do aluno ");
 		int funcao = Leitor.nextInt();
+		System.out.println("digite o nome do aluno ");
+		String pesquisa = Leitor.nextLine();
 		switch (funcao) {
 			case 1:
-				System.out.println();
+				for (Aluno aluno : alunos) {
+					if (pesquisa.equals(aluno.nome)) {
+						System.out.println(aluno.nome);
+						for ( Diciplina  diciplina : aluno.diciplinas) {
+							diciplina.imprimir();
+						}
+					} else {
+						System.out.println("o aluno com esse nome nao foi encontrado ");
+					}
+				}
+				
 				break;
-		
+				case 2 :
+				for (Aluno aluno : alunos) {
+					if (pesquisa.equals(aluno.nome)) {
+						System.out.println(aluno.nome);
+						for ( Diciplina  diciplina : aluno.diciplinas) {
+							diciplina.imprimir();
+						}
+					} else {
+						System.out.println("o aluno com esse nome nao foi encontrado ");
+					}
+				}
+				break;
+			case 3 :
+				
+				for (Aluno aluno : alunos) {
+					if (pesquisa.equals(aluno.nome)) {
+						System.out.println(aluno.nome);
+						for ( Diciplina  diciplina : aluno.diciplinas) {
+							System.out.println(diciplina.nome);
+							diciplina.estado();
+						}
+					} else {
+						System.out.println("o aluno com esse nome nao foi encontrado ");
+					}
+				}
 			default:
 				break;
 		}
