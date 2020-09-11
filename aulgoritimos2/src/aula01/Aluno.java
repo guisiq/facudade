@@ -1,8 +1,5 @@
 package aula01;
-import java.util.Scanner;
-import json.*;
-
-/**
+import java.util.Scanner;/**
  * 
  */
 public class Aluno {
@@ -34,6 +31,7 @@ public class Aluno {
 			this.diciplinas[i] = new Diciplina();
 			this.diciplinas[i].lerDiciplina();
 		}
+		leitor.close();
 	}
 
 }
