@@ -8,7 +8,6 @@ public class Automovel {
             NOME = valorOpcao;
         }
     }
-
     TipoAutomovel tipo;
     String modelo;
     double potenciaTotal;//N
