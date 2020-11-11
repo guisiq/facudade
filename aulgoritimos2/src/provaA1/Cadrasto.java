@@ -32,26 +32,30 @@ public class Cadrasto {
         }
 
     }
+    static void imprimirDados(Veiculo[] vet, int tipo){
+        for (int i = 0; i < vet.length; i++) {
+            
+            if ( vet[i] instanceof Carro && tipo == 1 ) {
+                vet[i]=(Carro)vet[i];
+                vet[i].imprimir();
+            } else if ( vet[i] instanceof Moto && tipo == 2) {
+                vet[i]=(Moto)vet[i];
+                vet[i].imprimir();
+            }
+        }
+    }
     public static void main(String[] args) {
         Veiculo[] veiculos= new Veiculo[3];
         Scanner leitor = new Scanner(System.in);
         for (int i = 0; i < veiculos.length; i++) {
             veiculos[i] = lerDadosVeículo();
-            if (leitor != null) {
-                
-            }
+        
         }
         System.out.println("deseja inprimir os dados de:");
         System.out.println("[1] todos os carros");
         System.out.println("[2] todas as motos ");
-        int opca = leitor.nextInt();
-        for (int i = 0; i < veiculos.length; i++) {
-            if (opca == 1 ) {
-             
-            } else {
-                
-            }
-        }
+        int opcao = leitor.nextInt();
+        imprimirDados(veiculos,opcao);
 
     }
 }

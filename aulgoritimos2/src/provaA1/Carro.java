@@ -5,8 +5,8 @@ public class Carro extends Veiculo{
     private boolean tracaoNas4;
     @Override
     public String toString() {
-        return "carro :[modelo=" + modelo +"n/"+ ", pesso=" + pesso +"n/"+ ", potencia=" + potencia +"n/"+ ", velocidade="
-                + velocidade + "n/"+"quantidade de Portas"+quantPortas+"n/"+(tracaoNas4? "com tracao nas quatro rodas":"sem tracao nas quatro rodas");
+        return "carro :[modelo=" + modelo +"\n"+ ", pesso=" + pesso +"\n"+ ", potencia=" + potencia +"\n"+ ", velocidade="
+                + velocidade + "\n"+"quantidade de Portas"+quantPortas+"\n"+(tracaoNas4? "com tracao nas quatro rodas":"sem tracao nas quatro rodas");
     }
 
     public void imprimir(){

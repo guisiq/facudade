@@ -5,8 +5,16 @@ Você foi consultado para ajudar a resolver essas dúvidas. Foram feitas quatro 
 
 1. Quais procedimentos (simulações, estudos de casos, testes) são apropriados para verificar se uma pessoa tem potencial ou vocação para ser um administrador de alto desempenho? Considere que a pessoa é um estudante sem experiência profissional, que não pode comprovar competência. Que ideias você apresentaria?
 
+R:uma análise de currículo, entrevista, testes de nível de conhecimento gerais,  e uma simulação que possa avaliar atrave de diversos problemas relacionados ao cargo e usar as decisoes tomadas de  cada candidato e reação dele ao problema como forma de avaiar  Comportamento e dinâmica em grupo.
+
 2. Um único procedimento seria apropriado para selecionar candidatos para todas as áreas ou deveria haver procedimentos específicos para candidatos a marketing, finanças, tecnologia da informação e assim por diante? Por quê?
+
+R:Não podemos um procedimento inteiramente unico pois e preciso de informações especificas de cada um em sua área, vocação, potencial, desafios, capacidade de realização, criatividade, nível técnico , porem pode haver partes iguais nos diferentes procedimentos de cada area quando for analisar criterios em comum 
 
 3. É muito difícil encontrar candidatos com qualificações complexas, como especialistas em tecnologia da informação que tenham, ao mesmo tempo, visão de negócios e compreensão de problemas administrativos. Deve-se insistir nessa busca ou selecionar pessoas que tenham apenas a competência técnica e depois complementar sua formação? Há alternativas que possam ser consideradas?
 
+R: Devemos definir exatamente o que procuramos e insistir na busca certa , porem caso seja muito dificio econtrar candidatos conpetentes ou a quantidade desejadas de tais candidatos seria uma boa ideia abrir um progama de capacitacao dando chance ate mensmo de funcionarios da propria empresa subir de cargo facilitando a longo praso o processos de contratacoes futuras  
+
 4. Na última fase do processo seletivo, os 50 candidatos são divididos em grupos de cinco, ao acaso. Um candidato pode ser favorecido ou prejudicado, dependendo do grupo no qual é alocado. Às vezes, os colegas de grupo são mais fracos ou mais fortes. Às vezes, alguém fica nervoso e não consegue trabalhar direito com os colegas. Como resolver esse problema, para tornar as oportunidades iguais?
+
+R: faser uma avlicao mais individual o posivel e considerar as avaliacoes individuais na hora de constuir a avaliacao do grupo alem diso seria intereçante trocar os integrantes de grupos dividindo essa etapa em duas partes ou mais 

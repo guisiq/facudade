@@ -8,7 +8,7 @@ public class Veiculo {
 
     @Override
     public String toString() {
-        return "Veiculo :[modelo=" + modelo +"n/"+ ", pesso=" + pesso +"n/"+ ", potencia=" + potencia +"n/"+ ", velocidade="
+        return "Veiculo :[modelo=" + modelo +"\n"+ ", pesso=" + pesso +"\n"+ ", potencia=" + potencia +"\n"+ ", velocidade="
                 + velocidade + "]";
     }
     public void imprimir(){
