@@ -2,10 +2,12 @@ package trabalho10;
 
 import java.util.Scanner;
 
-public class Pessoa{
+public class Pessoa implements Comparable<Pessoa> { 
     protected String nome;
     protected String cpf;
-    protected Sexo sexo;
+	protected Sexo sexo;
+	
+	
     
     //#region construtores 
 	public Pessoa(String nome, String cpf, Sexo sexo) {
@@ -81,12 +83,16 @@ public class Pessoa{
 		if (sexo != other.sexo)
 			return false;
 		return true;
-    }
+	}
+	
 	@Override
 	public String toString() {
 		return "Pessoa [cpf=" + cpf + ", nome=" + nome + ", sexo=" + sexo + "]";
 	}
-    
+	@Override
+	public int compareTo(Pessoa obj) {
+		return 0;
+	}
 
     //#endregion
 
